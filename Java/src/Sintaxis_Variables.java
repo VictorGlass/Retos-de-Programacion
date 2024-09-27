@@ -37,27 +37,34 @@ public class Sintaxis_Variables {
         //Creando una variable y una constante:
         String miVariable = "Hola Mundo";
         final double PI = 3.1416;
+        System.out.println("Esta es la variable: " + miVariable + " y esta es la constante: " + PI);
 
         //4.
         //Variables con datos primitivos:
 
         //String = Cadena de Texto:
         String cadenaDeTexto = "Hola Java";
+        System.out.println("Cadena de Texto: " + cadenaDeTexto);
 
         //Int = Entero:
         int numero = 10;
+        System.out.println("Numero entero: " + numero);
 
         //Double = Decimal de doble precision:
         double decimal = 3.14;
+        System.out.println("Decimal de doble precision: " + decimal);
 
         //Float = Flotante, decimal de precision simple:
         float flotante = 5.67f;
+        System.out.println("Flotante de presicion simple: " + flotante);
 
         //Boolean = Booleano:
         boolean booleano = true;
+        System.out.println("Boolean: " + booleano);
 
         //Char = Caracter(solo uno):
         char caracter = 'A';
+        System.out.println("Char: " + caracter);
 
         //5.
         //Imprimiendo el texto: "¡Hola, [y el nombre de tu lenguaje]!".
